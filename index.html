@@ -5,15 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dreamcatcher - Mini Blog</title>
 </head>
+<style>
+body {
+    background-color:rgba(101, 89, 155, 0.979);
+    text-align: center;
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-family:'Times New Roman', Times, serif
+}
+.imagem-estilo-2 {
+    width: 20%; 
+    height: auto; 
+    max-width: 300px; 
+    display: block;
+    margin: 0 auto;
+    
+}
+.imagem-estilo-1 {
+    width: 60%; 
+    height: auto; 
+    max-width: 300px; 
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    text-align: right;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;  /* O contêiner ocupa 100% da largura da janela */
+    padding: 20px;
+}
+.flex-item {
+    width: 80%;  /* O conteúdo ocupa 80% da largura do contêiner */
+    text-align: center;
+}
+</style>
 <body>
-    <h1>Bem-vindo ao site do Dreamcatcher!</h1>
+    <div class="flex-container">
+        <div class="flex-item">
+    <p><img src="imagens/uniubelogo.png" alt="Logo da Universidade de Uberaba" class="imagem-estilo-2"></p><br>
+    <p><h1>Bem-vindo ao site do Dreamcatcher!</h1></p>
+    <br>
     <h2>Primeiro, vamos a uma breve introdução</h2>
     <br>
-    <img src="imagens/dreamcatcher.jpg" alt="Dreamcatcher e suas 7 integrantes" width="400" height="350"> <br>
-    Dreamcatcher (em coreano: 드림캐쳐), anteriormente conhecido como MINX (em coreano: 밍스), é um grupo feminino sul-coreano formado pela Dreamcatcher Company em 2017. O grupo consiste em sete integrantes: JiU, SuA, Siyeon, Handong, Yoohyeon, Gahyun e Dami. <br> <br>
-    Elas estrearam oficialmente no dia 13 de janeiro de 2017 com o single álbum "Nightmare" e atualmente são conhecidas como pioneiras do rock coreano feminino.
+    <img src="imagens/dreamcatcher.jpg" alt="Dreamcatcher e suas 7 integrantes" class="imagem-estilo-1"> <br>
+    <p>Dreamcatcher (em coreano: 드림캐쳐), anteriormente conhecido como MINX (em coreano: 밍스), é um grupo feminino sul-coreano formado pela Dreamcatcher Company em 2017. O grupo consiste em sete integrantes: JiU, SuA, Siyeon, Handong, Yoohyeon, Gahyun e Dami. </p> 
+    <p>Elas estrearam oficialmente no dia 13 de janeiro de 2017 com o single álbum "Nightmare" e atualmente são conhecidas como pioneiras do rock coreano feminino. </p>
     
-<h2>Conheça as integrantes:</h2>
+<h2>Conheça as integrantes</h2>
+    
     <a href="Jiu.html">Jiu</a><br>
     <a href="SuA.html">SuA</a><br>
     <a href="Siyeon.html">Siyeon</a><br>
@@ -21,9 +74,18 @@
     <a href="Yoohyeon.html">Yoohyeon</a><br>
     <a href="Gahyun.html">Gahyun</a><br>
     <a href="Dami.html">Dami</a><br>
+    
+    <h2>Conquistas do grupo e minha experiência no show</h2>
+<a href="Conquistas.html">Conquistas do Dreamcatcher</a><br>
+<a href="Sobre o Show.html">Minha experiência!</a>
 
-    <h2>Conquistas do grupo e minha experiência no show:</h2>
-    <a href="Conquistas.html">Conquistas do Dreamcatcher</a><br>
-    <a href="Sobre o Show.html">Minha experiência!</a>
+<h2>Contato</h2>
+<a href="contato.html">Entre em contato</a>
+<hr>
+<footer>
+    <p>© Júlia Mendes - 5158784. Todos os direitos reservados.</p><br>
+    </footer>
+        </div>
+    </div>
 </body>
 </html>
